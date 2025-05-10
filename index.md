@@ -1,31 +1,41 @@
-# TP interactif : Analyse NGS sur Galaxy
+# 🧬 TP : Analyse de Données NGS (Exome) avec Galaxy
 
-Bienvenue ! Ce TP vous guidera dans l’analyse d’un jeu de données de séquençage avec la plateforme [Galaxy](https://usegalaxy.org/).
+## 🌟 Introduction
 
----
+La génomique moderne a profondément transformé notre compréhension du vivant, notamment grâce aux technologies de séquençage de nouvelle génération (NGS). Ces technologies permettent de décoder rapidement et efficacement le génome humain, ouvrant la voie à des avancées majeures en recherche biomédicale, en diagnostic et en médecine personnalisée.
 
-## 🔹 Objectifs
-- Comprendre les étapes de l’analyse bioinformatique d’un échantillon NGS
-- Utiliser les outils de Galaxy (FastQC, Trimmomatic, BWA, FreeBayes, SnpEff)
-- Apprendre à interpréter les résultats
+Cependant, la richesse de ces données brutes ne peut être exploitée qu’à travers une analyse bioinformatique rigoureuse et reproductible. C’est là que la plateforme **Galaxy** entre en jeu : une interface web libre, conviviale et puissante, qui permet de réaliser toutes les étapes de l’analyse NGS sans avoir à écrire une seule ligne de code.
 
----
+## 🎯 Objectifs du TP
 
-## 🧰 Données à télécharger
-- 🔗 [Exemple de fichier FASTQ](./data/echantillon.fastq)
-- 🔗 [Référence génomique (extrait)](./data/ref.fa)
+Ce TP vise à vous initier, de manière interactive et progressive, au pipeline standard d’analyse NGS pour l’étude de l’exome. Vous apprendrez à :
 
----
+- Explorer la qualité des données de séquençage avec **FastQC**
+- Nettoyer les lectures en supprimant les artéfacts techniques (adaptateurs, bases de faible qualité)
+- Aligner les séquences sur le génome humain de référence (**GRCh38**) à l’aide de **BWA-MEM**
+- Manipuler les fichiers BAM avec **SAMtools**
+- Identifier les variants (SNPs et indels) à l’aide de **GATK HaplotypeCaller**
+- Annoter les variants avec **VEP** afin d’évaluer leur impact biologique
+- Visualiser les résultats dans **IGV** et interpréter les mutations identifiées
 
-## 🗂️ Étapes du TP
-1. Créer un compte sur [Galaxy](https://usegalaxy.org/)
-2. Contrôle qualité avec **FastQC**
-3. Nettoyage des lectures avec **Trimmomatic**
-4. Alignement avec **BWA-MEM**
-5. Appel de variants avec **FreeBayes**
-6. Annotation des variants avec **SnpEff**
+## 🧪 Contexte scientifique
 
----
+Le jeu de données utilisé dans ce TP est un exome humain réel d´une patiente atteinte de cancer du sein. Le but est de simuler l’analyse d’un échantillon d’un patient atteint d’une maladie génétique suspectée, et d’identifier les mutations potentielles pouvant en être responsables.
 
-## 📬 Contact
-Pour toute question, contactez : fatimazohra.moufid@usmba.ac.ma
+Cet exercice vous permettra de comprendre les bases de l’analyse bioinformatique, tout en vous sensibilisant aux enjeux de la génomique médicale moderne.
+
+## 🗺️ Déroulement du TP
+
+Ce TP se décompose en plusieurs étapes pratiques, chacune hébergée dans un fichier séparé :
+
+1. [Contrôle qualité - FastQC](./tuto-fastqc.md)
+2. [Nettoyage des lectures - Cutadapt](./tuto-cutadapt.md)
+3. [Alignement - BWA-MEM](./tuto-bwa.md)
+4. [Tri et indexation - SAMtools](./tuto-samtools.md)
+5. [Appel de variants - GATK](./tuto-gatk.md)
+6. [Annotation des variants - VEP](./tuto-vep.md)
+7. [Validation et interprétation - IGV](./validation.md)
+
+## 🔗 Liens utiles
+
+- 🌐 [Galaxy Europe](https://usegalaxy.eu) — L’instance
