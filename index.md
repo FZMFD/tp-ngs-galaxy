@@ -38,4 +38,5 @@ Ce TP se décompose en plusieurs étapes pratiques, chacune hébergée dans un f
 
 ## 🔗 Liens utiles
 
-- 🌐 [Galaxy Europe](https://usegalaxy.eu) — L’instance
+- 🌐 [Galaxy Europe](https://usegalaxy.eu)
+- Pour toutes questions contactez-moi sur: fatimazohra.moufid@usmba.ac.ma
