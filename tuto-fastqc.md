@@ -21,6 +21,59 @@ Pour ce TP, nous allons analyser un fichier FASTQ d'exome humain issu d’un pro
 - Vous pouvez utiliser un fichier d’exemple comme celui-ci (compress\u00e9) :  
   👉 `https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR123/006/SRR1234566/SRR1234566_1.fastq.gz`
 
+## 🔍 Inspecter un fichier FASTQ brut
+
+Avant d’utiliser un outil d’analyse de qualité, il est recommandé d’examiner rapidement le contenu du fichier FASTQ pour repérer d’éventuels problèmes évidents.
+
+
+---
+
+### 🖼️ Exemple visuel
+
+![Structure d’un fichier FASTQ](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/images/fastq-format.png)
+
+*Figure : Structure typique d’un fichier FASTQ (source : Galaxy Training Network)*
+
+---
+
+### 👀 Aperçu dans Galaxy
+
+Une fois votre fichier `.fastq.gz` téléversé dans Galaxy :
+
+1. Cliquez sur **l’icône en forme d’œil** 🔍 dans le panneau latéral (Historique).
+2. Faites défiler pour voir les lectures brutes.
+3. Vérifiez :
+   - La **longueur des séquences** est-elle homogène ?
+   - Les lignes d’identifiants sont-elles cohérentes ?
+   - Y a-t-il des caractères inhabituels ou des bases `N` ?
+
+> Cette vérification rapide permet d’anticiper les erreurs détectées par FastQC.
+
+---
+
+### ✅ Astuce
+
+Si vous observez :
+- Des lignes de séquence et de qualité de **longueur différente**
+- Des bases inconnues (`N`) ou caractères inhabituels
+→ Il est possible que le fichier soit corrompu, tronqué ou de mauvaise qualité.
+
+---
+
+➡️ [Étape suivante → Exécuter FastQC](#exécuter-fastqc)
+
+---
+
+### 📄 À quoi ressemble un fichier FASTQ ?
+
+Chaque lecture (read) dans un fichier FASTQ est représentée par **4 lignes** :
+
+1. Une ligne d’identifiant (commence par `@`)
+2. La séquence nucléotidique (A, C, G, T)
+3. Un séparateur `+` (parfois suivi du même identifiant)
+4. Une ligne de scores de qualité (encodés en ASCII, un caractère par base)
+
+> Exemple de lecture dans un fichier FASTQ :
 Dans Galaxy :
 1. Cliquez sur **Upload Data** (icône en haut à gauche)
 2. Collez l’URL dans l’onglet **Paste/Fetch Data**
