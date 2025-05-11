@@ -78,6 +78,8 @@ Cutadapt génère un fichier FASTQ nettoyé, nommé :
 - Toujours vérifier les résultats avec **FastQC** après le trimming
 - S'assurer que la longueur des séquences est suffisante après nettoyage
 - Ne pas trop couper → préserver la couverture
+   [➡️ Voir et télécharger le rapport HTML](reports/Cutadapt%20on%20data%2029_%20Read%201%20Output%20fastqc.html) 
+
 
 
 
