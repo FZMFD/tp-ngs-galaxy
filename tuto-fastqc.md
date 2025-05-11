@@ -15,11 +15,10 @@ Nous utiliserons l'instance Galaxy Europe, accessible sans inscription :
 
 ## 📁 Données utilisées
 
-Pour ce TP, nous allons analyser un fichier FASTQ d'exome humain issu d’un projet SRA :
+Pour ce TP, nous allons analyser un fichier FASTQ d'exome humain :
 
-- **Identifiant SRA** : [SRR123456](https://www.ncbi.nlm.nih.gov/sra/?term=SRR123456)
-- Vous pouvez utiliser un fichier d’exemple comme celui-ci (compress\u00e9) :  
-  👉 `https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR123/006/SRR1234566/SRR1234566_1.fastq.gz`
+-(https://drive.google.com/file/d/1NPX9jtgKhjIv0eH_4zcPl4CbL9qjfwx7/view?usp=sharing)
+
 
 ## 🔍 Inspecter un fichier FASTQ brut
 
