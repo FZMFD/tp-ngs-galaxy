@@ -29,7 +29,8 @@ Avant d’utiliser un outil d’analyse de qualité, il est recommandé d’exam
 
 ### 🖼️ Exemple visuel
 
-![Structure d’un fichier FASTQ](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/images/fastq-format.png)
+![Structure d’un fichier FASTQ](./images/fastq-format.png)
+
 
 *Figure : Structure typique d’un fichier FASTQ (source : Galaxy Training Network)*
 
