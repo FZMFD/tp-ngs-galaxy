@@ -67,7 +67,7 @@ Cliquez sur **Execute**
 ## 📊 Résultats obtenus
 
 Cutadapt génère un fichier FASTQ nettoyé, nommé :
-- [➡️ Voir et télécharger le rapport HTML](reports/Cutadapt on data 29_ Read 1 Output_fastqc.html) 
+- [➡️ Voir et télécharger le rapport HTML](reports/Cutadapt%20on%20data%2029_%20Read%201%20Output%20fastqc.html) 
 
 ---
 
