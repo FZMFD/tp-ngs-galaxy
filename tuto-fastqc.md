@@ -32,6 +32,7 @@ Avant d’utiliser un outil d’analyse de qualité, il est recommandé d’exam
 ![Structure d’un fichier FASTQ](./images/fastq-format.png)
 
 
+
 *Figure : Structure typique d’un fichier FASTQ (source : Galaxy Training Network)*
 
 ---
