@@ -25,16 +25,6 @@ Pour ce TP, nous allons analyser un fichier FASTQ d'exome humain :
 Avant d’utiliser un outil d’analyse de qualité, il est recommandé d’examiner rapidement le contenu du fichier FASTQ pour repérer d’éventuels problèmes évidents.
 
 
----
-
-### 🖼️ Exemple visuel
-
-![Structure FASTQ](images/fastq-format.PNG) 
-
-
-
-
-*Figure : Structure typique d’un fichier FASTQ (source : Galaxy Training Network)*
 
 ---
 
@@ -52,6 +42,8 @@ Dans Galaxy :
 1. Cliquez sur **Upload Data** (icône en haut à gauche)
 2. Collez l’URL dans l’onglet **Paste/Fetch Data**
 3. Cliquez sur **Start** puis **Close**
+
+   
 ---
 
 ### 👀 Aperçu dans Galaxy
@@ -66,6 +58,17 @@ Une fois votre fichier `.fastq.gz` téléversé dans Galaxy :
    - Y a-t-il des caractères inhabituels ou des bases `N` ?
 
 > Cette vérification rapide permet d’anticiper les erreurs détectées par FastQC.
+
+---
+
+### 🖼️ Exemple visuel
+
+![Structure FASTQ](images/fastq-format.PNG) 
+
+
+
+
+*Figure : Structure typique d’un fichier FASTQ (source : Galaxy Training Network)*
 
 ---
 
@@ -91,7 +94,7 @@ FastQC est un outil d’analyse rapide de la qualité des fichiers FASTQ. Il fou
 - Les bases de faible qualité
 - Les adaptateurs résiduels
 - Les biais GC
-- Les doublons
+- Les duplicats
 
 ### 📌 Étapes à suivre sur Galaxy :
 
