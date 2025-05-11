@@ -107,7 +107,7 @@ FastQC est un outil d’analyse rapide de la qualité des fichiers FASTQ. Il fou
 
 FastQC génère deux fichiers :
 - **`fastqc.html`** → rapport interactif 
-- [➡️ Voir et télécharger le rapport HTML](.reports/FastQC_on_data_29__Webpage_html.html) 
+- [➡️ Voir et télécharger le rapport HTML](reports/FastQC_on_data_29__Webpage_html.html) 
 - **`fastqc_data.txt`** → données brutes du rapport
 
 ### ✅ Points à observer dans le rapport :
