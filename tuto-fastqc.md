@@ -29,7 +29,7 @@ Avant d’utiliser un outil d’analyse de qualité, il est recommandé d’exam
 
 ### 🖼️ Exemple visuel
 
-![Structure FASTQ](./fastq-format.png)
+![Structure FASTQ](./fastq-format.PNG)
 
 
 
