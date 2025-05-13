@@ -89,4 +89,17 @@ Tu peux utiliser **SAMtools flagstat** pour évaluer la qualité de l’aligneme
 ## 🟰 Résultat obtenu
 - ![Résultat de l´alignement](images/Screenshot%202025-05-13%20at%2022.58.44.png)
 
+---
+
+## ✅ Conclusion
+
+**Fichier de reads single-end**
+
+Très bonne qualité globale :
+
+- Taux d’alignement élevé (**99.9 %**)
+- Aucune duplication
+- Faible taux de reads *supplementary* (~**1 ‰**)
+
+
 
