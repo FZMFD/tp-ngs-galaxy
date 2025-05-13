@@ -84,4 +84,9 @@ Tu peux utiliser **SAMtools flagstat** pour évaluer la qualité de l’aligneme
 - En cas de taux faible, revoir le trimming ou l’identifiant du génome
 - Indexe le fichier BAM avec **SAMtools index** si nécessaire pour IGV
 
+---
+
+##🟰 Résultat obtenu
+![Résultat de l´alignement](images/Screenshot 2025-05-13 at 22.58.44.png)
+
 
