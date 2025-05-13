@@ -56,8 +56,8 @@ C’est un des algorithmes d’alignement les plus utilisés pour les données N
 ## 🟰 Résultat obtenu
 
 BWA-MEM génère un fichier **BAM** (Binary Alignment Map) contenant les lectures alignées :
-[➡️ Voir et télécharger le fichier BAM]-(https://drive.google.com/file/d/1CJ-dJwYiLG3xfI8FT45MblIL0iiDNLYr/view?usp=drive_link)
-[➡️ Voir et télécharger le fichier Bai]-(https://drive.google.com/file/d/1yy-Q7aF13LLGznjFRtMhcHr_ZKtAP11D/view?usp=drive_link)
+- [➡️ Voir et télécharger le fichier BAM]-(https://drive.google.com/file/d/1CJ-dJwYiLG3xfI8FT45MblIL0iiDNLYr/view?usp=drive_link)
+- [➡️ Voir et télécharger le fichier Bai]-(https://drive.google.com/file/d/1yy-Q7aF13LLGznjFRtMhcHr_ZKtAP11D/view?usp=drive_link)
 
 Ce fichier BAM sera utilisé pour :
 - Visualisation avec IGV
