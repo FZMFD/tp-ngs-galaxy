@@ -45,7 +45,7 @@ C’est un des algorithmes d’alignement les plus utilisés pour les données N
   → `Single-end` (ou `Paired-end` selon ton fichier)
 
 - **FASTQ file**  
-  → Sélectionne le fichier de Cutadapt (`Galaxy41-[Cutadapt on data 29_ Read 1 Output].fastqsanger´)
+  → Sélectionnez le fichier de Cutadapt (`Galaxy41-[Cutadapt on data 29_ Read 1 Output].fastqsanger´)
 
 - Laissez les autres options par défaut
 
@@ -72,17 +72,17 @@ Ce fichier BAM sera utilisé pour :
 
 Tu peux utiliser **SAMtools flagstat** pour évaluer la qualité de l’alignement :
 
-1. Recherche **SAMtools flagstat** dans Galaxy
-2. Applique-le au fichier BAM généré
-3. Analyse le pourcentage de lectures mappées
+1. Recherchez **SAMtools flagstat** dans Galaxy
+2. Appliquez-le au fichier BAM généré
+3. Analysez le pourcentage de lectures mappées
 
 ---
 
 ## ✅ Bonnes pratiques
 
-- Vérifie que le taux de mapping est > 95 % pour un exome de bonne qualité
+- Vérifiez que le taux de mapping est > 95 % pour un exome de bonne qualité
 - En cas de taux faible, revoir le trimming ou l’identifiant du génome
-- Indexe le fichier BAM avec **SAMtools index** si nécessaire pour IGV
+- Indexez le fichier BAM avec **Convert Bam to Bai** si nécessaire pour IGV
 
 ---
 
