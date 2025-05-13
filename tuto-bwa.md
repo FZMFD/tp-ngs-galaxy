@@ -87,6 +87,6 @@ Tu peux utiliser **SAMtools flagstat** pour évaluer la qualité de l’aligneme
 ---
 
 ##🟰 Résultat obtenu
-![Résultat de l´alignement](images/Screenshot 2025-05-13 at 22.58.44.png)
+- ![Résultat de l´alignement](images/Screenshot 2025-05-13 at 22.58.44.png)
 
 
