@@ -17,7 +17,7 @@ Nous utiliserons l'instance Galaxy Europe, accessible sans inscription :
 
 Pour ce TP, nous allons analyser un fichier FASTQ d'exome humain :
 
--(https://drive.google.com/file/d/1NPX9jtgKhjIv0eH_4zcPl4CbL9qjfwx7/view?usp=sharing)
+-(https://drive.google.com/file/d/1K6hQTbr51kTds1Ccmyh5oWtVzcE4kmg2/view?usp=drive_link)
 
 
 ## 🔍 Inspecter un fichier FASTQ brut
