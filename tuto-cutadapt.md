@@ -14,7 +14,7 @@ Supprimer les adaptateurs et les bases de mauvaise qualité présentes aux extr�
 
 ## 📁 Données utilisées
 
-Nous allons réutiliser le fichier FASTQ brut inspecté précédemment -(https://drive.google.com/file/d/1NPX9jtgKhjIv0eH_4zcPl4CbL9qjfwx7/view?usp=sharing).
+Nous allons réutiliser le fichier FASTQ brut inspecté précédemment -(https://drive.google.com/file/d/1K6hQTbr51kTds1Ccmyh5oWtVzcE4kmg2/view?usp=drive_link).
 
 ---
 
