@@ -14,7 +14,7 @@ Ce TP vise à vous initier, de manière interactive et progressive, au pipeline 
 - Nettoyer les lectures en supprimant les artéfacts techniques (adaptateurs, bases de faible qualité)
 - Aligner les séquences sur le génome humain de référence (**GRCh38**) à l’aide de **BWA-MEM**
 - Manipuler les fichiers BAM avec **SAMtools**
-- Identifier les variants (SNPs et indels) à l’aide de **GATK HaplotypeCaller**
+- Identifier les variants (SNPs et indels) à l’aide de **FreeBayes**
 - Annoter les variants avec **VEP** afin d’évaluer leur impact biologique
 - Visualiser les résultats dans **IGV** et interpréter les mutations identifiées
 
