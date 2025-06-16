@@ -33,7 +33,7 @@ Ce TP se décompose en plusieurs étapes pratiques, chacune hébergée dans un f
 3. [Alignement - BWA-MEM](./tuto-bwa.md)
 4. [Tri et indexation - SAMtools](./tuto-samtools.md)
 5. [Appel de variants - FreeBayes](./tuto-freebayes.md) 
-6. [Annotation des variants - VEP](./tuto-vep.md)
+6. [Annotation des variants - snpeff](./tuto-snpeff.md)
 7. [Validation et interprétation - IGV](./validation.md)
 
 ## 🔗 Liens utiles
