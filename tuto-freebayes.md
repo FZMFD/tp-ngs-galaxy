@@ -47,6 +47,8 @@ Détecteur bayésien de variants germinaux (SNPs, indels, multi-alleliques)
 ## 📄 Résultat obtenu
 
 Un fichier `.vcf` contenant tous les variants détectés par FreeBayes.
+- [➡️ Voir et télécharger le fichier VCF]-(https://drive.google.com/file/d/1zSprINEeNZH4Y3DdFdPyZ4FT4bf8eLOV/view?usp=drive_link).
+
 
 ### Exemple de lignes VCF :
 
