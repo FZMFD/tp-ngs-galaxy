@@ -42,7 +42,7 @@ C’est un des algorithmes d’alignement les plus utilisés pour les données N
   → `Human (Homo sapiens): hg38` (GRCh38)
 
 - **Single or paired-end reads?**  
-  → `Single-end` (ou `Paired-end` selon ton fichier)
+  → `Single-end` 
 
 - **FASTQ file**  
   → Sélectionnez le fichier de Cutadapt (`Galaxy41-[Cutadapt on data 29_ Read 1 Output].fastqsanger´)
