@@ -34,7 +34,7 @@ Détecteur bayésien de variants germinaux (SNPs, indels, multi-alleliques)
 
 ### 📌 Paramètres à configurer
 
-- **Choose the source for the reference genome** → `From history`
+- **Choose the source for the reference genome** 
 - **FASTA Reference Genome** → ton fichier `hg38.fa`
 - **BAM alignment file** → ton fichier `sorted.bam`
 - **Output format** → `VCF`
